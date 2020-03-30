@@ -7,7 +7,7 @@ body{
 
 .heroImg {
     width: 100%;
-    height: 80vh;
+    height: 100vh;
     background-image: linear-gradient(45deg,  #492ab952 , #24bce252 ,#27fdb652 ), url(../assets/hal-gatewood-iPl3q-gEGzY-unsplash.jpg);
     background-size: cover;
     padding: 30px 0;
