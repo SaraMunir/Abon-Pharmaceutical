@@ -1,0 +1,221 @@
+body{
+    position: relative;
+    background: #1c1e3b;
+    color: #1c1e3b;
+    font-family: 'Nunito', sans-serif;
+}
+
+.heroImg {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(45deg,  #492ab952 , #24bce252 ,#27fdb652 ), url(../assets/hal-gatewood-iPl3q-gEGzY-unsplash.jpg);
+    background-size: cover;
+    padding: 30px 0;
+    /* background-position:center; */
+}
+/* , url(../assets/hal-gatewood-iPl3q-gEGzY-unsplash.jpg); */
+a:hover {
+    text-decoration: none;
+    color: white;
+}
+.navigBar{
+    position: fixed;
+    width: 100%;
+    padding: 10px;
+}
+.myNavItem{
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    transition: ease all .5s;
+}
+.myNavItem:hover {
+    padding: calc(10px-1px) calc(20px-1px);
+    text-decoration: none;
+    border: 1px solid #ed145b;
+    border-radius: 5px;
+}
+.myNavItem:active {
+    color: white;
+    background-color: #1c1e3b;
+    border: 1px solid #1c1e3b;
+}
+.rowContent {
+    display: flex;
+    justify-content: center;
+}
+
+.heroContent{
+    width: 60%;
+    padding: 50px 30px 0 0;
+}
+.spclFnt{
+    font-family: 'Libre Baskerville', serif;
+    font-style: italic;
+}
+
+.mTop-100{
+    margin-top: 100px;
+}
+.mTop-50{
+    margin-top: 50px;
+
+}
+
+.heroTxt {
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
+    font-size: 2.7rem;
+    text-align: center;
+    filter: drop-shadow(2px 2px 2px #1c1e3b81);
+}
+
+.herotSubTxt-heading {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6rem;
+    color: #2c3147;
+    font-weight: 400;
+}
+.herotSubTxt-detail{
+    color: white;
+    font-size: 1rem;
+    text-align: right;
+    /* margin-left: 155px; */
+    /* font-weight: bold; */
+}
+.aboutSctn{
+    padding: 50px;
+    border: 1px solid salmon;
+    height: 60vh;
+}
+.wrapper {
+    width: 80%;
+    /* margin: 0 auto; */
+}
+.justifyEnd {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.myBtn {
+    font-size: .85rem;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    width: 200px;
+    background: #1ed3ca;
+    padding: 12px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: ease all .3s;
+    filter: drop-shadow(0px 0px 4px #1c1e3b);
+}
+.myBtn:hover {
+    background: #1c1e3b;
+    border: 1px solid #1ed3ca;
+    filter: drop-shadow(0px 0px 3px #1ed3cac4);
+
+}
+.myBtn:active {
+    /* color: ; */
+    background: #1c1e3b;
+    filter: none;
+}
+.myBtn2 {
+    font-size: .85rem;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    width: 150px;
+    background: #1ed3ca;
+    padding: 8px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: ease all .3s;
+    filter: drop-shadow(0px 0px 4px #0e0f1d);
+    margin: 0 auto;
+}
+.myBtn2:hover {
+    /* color: ; */
+    background: #1c1e3b;
+    /* border: 1px solid #1eb87d; */
+}
+.myBtn2:active {
+    /* color: ; */
+    background: #1c1e3b;
+    filter: none;
+}
+/* cards */
+
+.cardsSection{
+    padding: 50px 0;
+    background: white;
+    /* height: 75vh; */
+    position: relative;
+    
+}
+.cardMarginTop{
+    /* margin-top: -50px; */
+    /* width: 80%; */
+    /* position: absolute;
+    top: -50px;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    z-index: 40; */
+}
+.myCard {
+    width: 30%;
+    padding: 25px;
+    margin: 20px auto;
+    color: white;
+    /* width: 30%; */
+    background: #24bce2;
+    border-radius: 5px;
+    filter: drop-shadow(3px 3px 2px #50505091);
+    text-align: center;
+    z-index: 50;
+
+}
+.cardImg{
+    height: 25vh;
+}
+.cardDesc{
+    height: 25vh;
+}
+.logoCardimg {
+    width: 15vh;
+    height: 15vh;
+    object-fit: cover;
+    margin: 0 auto;
+    
+}
+
+/* my shortcuts */
+
+.justifyCenter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.myflexRow{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+} 
+.myflexCol{
+    display: flex;
+    flex-direction: column;
+
+}
+.myJstCentr {
+    justify-content: center;
+}
+.mrAuto {
+    margin: 0 auto;
+
+}

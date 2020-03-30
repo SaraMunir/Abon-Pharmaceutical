@@ -1,0 +1,219 @@
+.hero{
+    background: #24bce2;
+    padding: 50px 0;
+
+}
+.heroImg {
+    /* background-image: url(assets/christine-sandu-RGvxmouRioE-unsplash.jpg); */
+    width: 100%;
+    /* height: 80vh; */
+    /* background-position:center; */
+
+}
+a:hover {
+    text-decoration: none;
+    color: white;
+}
+.navigBar{
+    background: #1c1e3b;
+    padding: 10px;
+}
+/* .navbar {
+    width: 80%;
+} */
+.myNavItem{
+    text-decoration: none;
+    color: rgb(197, 197, 197);
+    padding: 10px 20px;
+    font-size: 1rem;
+    /* transition: ease all .5s; */
+}
+.myNavItem:hover {
+    text-decoration: none;
+    color: #1ed3ca;
+}
+.rowContent {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: flex-end;
+}
+
+.heroContent{
+    width: 80%;
+    padding: 80px auto;
+    margin: 0 auto;}
+.contactMap {
+    width: 60%;
+    /* padding: 50px; */
+}
+.contactMap iframe{
+    width: 100%;
+    /* height: 100%; */
+}
+.heroTxt {
+    color:  #1eb87d;
+    font-family: 'Oswald', sans-serif;
+    /* font-weight: 700; */
+    font-size: 3rem;
+    text-align: center;
+}
+
+.herotSubTxt-heading {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6rem;
+    color: #1c1e3b;
+    font-weight: 400;
+}
+.herotSubTxt-detail{
+    color: #111224;
+    font-size: 1rem;
+    text-align: center;
+    /* margin-left: 155px; */
+    font-weight: bold;
+
+
+}
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+.justifyEnd {
+    display: flex;
+    justify-content: flex-end;
+}
+.myBtn {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    width: 200px;
+    background:  #1ed3ca;
+    padding: 10px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: ease all .3s;
+    filter: drop-shadow(3px 3px 6px #1c1e3b);
+}
+.myBtn:hover {
+    /* color: ; */
+    background: #1c1e3b;
+}
+.myBtn:active {
+    /* color: ; */
+    background: #1c1e3b;
+    filter: none;
+
+}
+.myBtn2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    width: 150px;
+    background: #1ed3ca;
+    padding: 8px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: ease all .3s;
+    filter: drop-shadow(3px 3px 6px #0e0f1d);
+    margin: 0 auto;
+}
+.myBtn2:hover {
+    /* color: ; */
+    background: #1c1e3b;
+}
+.myBtn2:active {
+    /* color: ; */
+    background: #1c1e3b;
+    filter: none;
+}
+
+/* cards */
+.myflexRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px;
+} 
+.myflexCol{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} 
+.cardsSection{
+    background: #1c1e3b;
+    /* height: 70vh; */
+    position: relative;
+    
+}
+.cardMarginTop{
+    /* margin-top: -50px; */
+    /* width: 80%; */
+    position: absolute;
+    top: 0px;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    z-index: 40;
+
+}
+.myCard {
+    padding: 20px;
+    /* margin: 10px; */
+    /* width: 30%; */
+    background: white;
+    border-radius: 5px;
+    filter: drop-shadow(3px 3px 2px #50505091);
+    text-align: center;
+    z-index: 50;
+
+}
+.cardImg{
+    height: 25vh;
+}
+.cardDesc{
+    height: 25vh;
+}
+.logo{
+    color: #1eb87d;
+    padding: 20px 0px;
+    width: 15vh;
+    border: tomato 1px solid;
+}
+.contactBox{
+    width: 80%;
+    border: tomato 1px solid;
+    
+}
+.box-margin{
+    width: 40%;
+    border: rgb(0, 160, 120) 1px solid;
+
+}
+.logoText{
+    width: 68vh;
+    text-align: left;
+}
+form {
+    padding: 50px 20px;
+
+}
+
+.logoCardimg {
+    width: 15vh;
+    height: 15vh;
+    object-fit: cover;
+    margin: 0 auto;
+    
+}
+.justifyCenter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.box-margin {
+    margin: 10px;
+}
