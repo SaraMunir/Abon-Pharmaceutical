@@ -19,7 +19,7 @@ a:hover {
     color: white;
 }
 .navigBar{
-    position: fixed;
+    position: absolute;
     width: 100%;
     padding: 10px;
 }
@@ -35,6 +35,7 @@ a:hover {
     padding: calc(10px-1px) calc(20px-1px);
     text-decoration: none;
     border: 1px solid #ed145b;
+    color: #ed145b;
     border-radius: 5px;
 }
 .myNavItem:active {
@@ -89,7 +90,7 @@ a:hover {
 }
 .aboutSctn{
     padding: 50px;
-    border: 1px solid salmon;
+    /* border: 1px solid salmon; */
     height: 60vh;
 }
 .wrapper {
@@ -115,7 +116,7 @@ a:hover {
     filter: drop-shadow(0px 0px 4px #1c1e3b);
 }
 .myBtn:hover {
-    background: #1c1e3b;
+    background: #ed145b;
     border: 1px solid #1ed3ca;
     filter: drop-shadow(0px 0px 3px #1ed3cac4);
 
@@ -141,7 +142,7 @@ a:hover {
 }
 .myBtn2:hover {
     /* color: ; */
-    background: #1c1e3b;
+    background: #ed145b;
     /* border: 1px solid #1eb87d; */
 }
 .myBtn2:active {
@@ -169,9 +170,9 @@ a:hover {
     z-index: 40; */
 }
 .myCard {
-    width: 30%;
+    /* width: 20%; */
     padding: 25px;
-    margin: 20px auto;
+    margin: 20px;
     color: white;
     /* width: 30%; */
     background: #24bce2;
