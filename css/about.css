@@ -11,6 +11,17 @@ body{
     background-image: linear-gradient(45deg,  #492ab952 , #24bce252 ,#27fdb652 ), url(../assets/hal-gatewood-iPl3q-gEGzY-unsplash.jpg);
     background-size: cover;
     padding: 30px 0;
+}
+.heroImg2 h2{
+    color: #ed145b;
+}
+.heroImg2 {
+    color: white;
+    width: 100%;
+    height: 80vh;
+    background-image: linear-gradient(45deg, #db278152  ,#27e4fd52 ), url(../assets/alexandra-lee-ZxeJ3tBj8ew-unsplash.jpg);
+    background-size: cover;
+    padding: 30px 0;
     /* background-position:center; */
 }
 /* , url(../assets/hal-gatewood-iPl3q-gEGzY-unsplash.jpg); */
@@ -248,12 +259,13 @@ a:hover {
     padding: 20px;
 }
 .proCard {
+    margin-top: 50px;
     background: white;
     color: #1c1e3b;
-    width: 85%;
-    border: 1px solid #ed145b;
+    width: 80%;
+    border: 1px solid #c0c0c0;
     border-radius: 5px;
-    padding: 20px;
+    padding: 50px;
 }
 .whiteText{
     color: white;
@@ -264,21 +276,49 @@ a:hover {
     margin-top: -90px;
 }
 .rndCard{
-    /* color: #24bce2; */
     background-color: #24bce2;
-    width: 30vh;
-    height: 30vh;
+    width: 25vh;
+    height: 25vh;
     object-fit: cover;
     border-radius: 50%;
     margin: 15px;
     border: 3px solid white;
     transition: ease all .6s;
+    cursor: pointer;
 }
 .rndCard img {
     width: 70%;
     margin: 25px;
 }
 .rndCard:hover{
-    background-color: #1ed3ca;
+    background-color: #ed145b;
 
+}
+
+
+@media only screen and (max-width: 950px) {
+    .heroImg2 {
+        height: 100vh;
+    }
+
+    /* .rndCard{
+        width: 18vh;
+        height: 18vh;
+    } */
+}
+@media only screen and (max-width: 600px) {
+    .heroImg2 {
+        /* color: white;
+        width: 100%; */
+        height: 120vh;
+        background-image: linear-gradient(45deg, #db278152  ,#27e4fd52 ), url(../assets/alexandra-lee-ZxeJ3tBj8ew-unsplash.jpg);
+        background-size: cover;
+        padding: 30px 0;
+        /* background-position:center; */
+    }
+
+    .rndCard{
+        width: 18vh;
+        height: 18vh;
+    }
 }
